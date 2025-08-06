@@ -1,4 +1,5 @@
 @echo off
+setlocal EnableDelayedExpansion
 
 :: Definir el año de las fotos
 set anio=2025
@@ -67,10 +68,8 @@ move "%sourcePath%\*%anio%12*" "%destinationPath%"
 
 echo Carpetas creadas y archivos movidos exitosamente en %mainFolderPath%
 
+:: Procede a borrar las carpetas que no contienen fotos
 echo "Buscando carpetas vacias..."
-
-setlocal EnableDelayedExpansion
-echo Buscando carpetas vacías...
 
 for /d %%D in ("%mainFolderPath%\*") do (
     echo Entrando en %%D
@@ -86,4 +85,5 @@ for /d %%D in ("%mainFolderPath%\*") do (
 )
 endlocal
 
-pause
+:: Descomentar pause para que el script se detenga al final y poder ver los pasos realizados
+:: pause
