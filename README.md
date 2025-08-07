@@ -10,6 +10,7 @@ Es útil para organizar fotos cronológicamente y evitar nombres duplicados.
 5. Renombra el archivo original con el nuevo nombre.
 
 📋 Requisitos
+
 Tener ExifTool instalado y accesible desde el terminal.
 Tener Git instalado (en windows para poder ejecutar el script)
 
