@@ -1,3 +1,7 @@
+# NOTA: 
+Si el nombre de las imagenes cumplen con el formato IMGYYYYMM no es necesario usar el script de formateo de nombre
+Ya se podría emplear directamente el script para ordenarlas
+
 # 📸 Script para Renombrar Imágenes por Fecha EXIF
 Este script renombra automáticamente todas las imágenes en el directorio actual usando la fecha y hora de captura extraída de los metadatos EXIF. 
 Es útil para organizar fotos cronológicamente y evitar nombres duplicados.
