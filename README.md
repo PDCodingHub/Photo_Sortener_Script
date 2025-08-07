@@ -10,11 +10,9 @@ Es útil para organizar fotos cronológicamente y evitar nombres duplicados.
 5. Renombra el archivo original con el nuevo nombre.
 
 📋 Requisitos
-
-Tener ExifTool instalado y accesible desde el terminal.
-Tener Git instalado (en windows para poder ejecutar el script)
-
-Ejecutar el script en el directorio donde están las imágenes.
+- Tener ExifTool instalado y accesible desde el terminal.
+- Tener Git instalado (en windows para poder ejecutar el script)
+- Ejecutar el script en el directorio donde están las imágenes.
 
 🚀 Cómo usarlo
 **En Linux/macOS:**
@@ -52,17 +50,24 @@ Es ideal para mantener tus fotos ordenadas cronológicamente.
 🧠 Ejemplo
 Si tienes estas imágenes:
 
-IMG202501_10.30.45.jpg
-IMG202504_12.15.00.jpg
-IMG202512_08.00.00.jpg
+- IMG202501_10.30.45.jpg
+- IMG202504_12.15.00.jpg
+- IMG202512_08.00.00.jpg
 
 El script creará esta estructura:
 
 2025/
+
 ├── 1.Enero/
+
 │   └── IMG202501_10.30.45.jpg
+
 ├── 4.Abril/
+
 │   └── IMG202504_12.15.00.jpg
+
 ├── 12.Diciembre/
+
 │   └── IMG202512_08.00.00.jpg
+
 Y eliminará automáticamente las carpetas de los meses sin imágenes.
