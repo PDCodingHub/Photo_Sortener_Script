@@ -1,11 +1,4 @@
 #!/bin/bash
-echo "----------------------------------------"
-echo "NOTA: INSTALAR EN PRIMER LUGAR exiftool"
-echo "1. Abrir cmd como administrador"
-echo "2. Usar el comando: choco install exiftool"
-echo "3. Ejecutar el script de modificar el nombre con Git Bash"
-echo "----------------------------------------"
-echo ""
 
 # Directorio donde se ejecuta el script
 directorio=$(pwd)
@@ -45,3 +38,4 @@ for imagen in "$directorio"/*.{jpg,jpeg,png,JPG,JPEG,PNG}; do
 done
 
 read -p "Presiona ENTER para salir..."
+
