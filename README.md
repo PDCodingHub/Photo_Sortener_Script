@@ -43,11 +43,11 @@ Es ideal para mantener tus fotos ordenadas cronológicamente.
 - Los nombres de archivo deben contener el año y mes en formato YYYYMM (ej. IMG202504_10.30.45.jpg).
 
 🚀 Cómo usarlo
-1. Guarda el script como organizar_por_mes.bat.
-2. Colócalo en la carpeta donde están tus imágenes.
+1. Descarga el script y colócalo en la carpeta donde están tus imágenes.
 3. Haz doble clic para ejecutarlo:
     
 🧠 Ejemplo
+
 Si tienes estas imágenes:
 
 - IMG202501_10.30.45.jpg
